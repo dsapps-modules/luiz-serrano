@@ -304,7 +304,10 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.28em;
     font-size: 0.72rem;
-    color: var(--gold);
+    color: #f2c62f;
+    font-weight: 800;
+    opacity: 1;
+    text-shadow: 0 0 0.5px rgba(8, 22, 56, 0.2);
 }
 
 h1,
@@ -594,12 +597,13 @@ dd {
     margin-bottom: 12px;
     padding: 7px 12px;
     border-radius: 999px;
-    background: var(--gold-soft);
-    color: var(--gold);
+    background: rgba(248, 216, 63, 0.24);
+    color: #d49f05;
     font-size: 0.72rem;
     letter-spacing: 0.24em;
     text-transform: uppercase;
     font-weight: 700;
+    opacity: 1;
 }
 
 .info-card h3,
