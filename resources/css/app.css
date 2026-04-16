@@ -34,10 +34,9 @@ body {
     color: var(--text);
     font-family: var(--body-font);
     background:
-        radial-gradient(circle at 16% 12%, rgba(62, 161, 230, 0.28), transparent 22%),
-        radial-gradient(circle at 84% 18%, rgba(248, 216, 63, 0.18), transparent 18%),
-        radial-gradient(circle at 50% 110%, rgba(35, 59, 132, 0.36), transparent 32%),
-        linear-gradient(135deg, #15245f 0%, #123b7f 42%, #0b2458 72%, #071733 100%);
+        radial-gradient(circle at 18% 14%, rgba(255, 255, 255, 0.78), transparent 24%),
+        radial-gradient(circle at 84% 18%, rgba(255, 255, 255, 0.5), transparent 22%),
+        linear-gradient(180deg, #f4f6f9 0%, #eef2f6 45%, #e9edf2 100%);
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
@@ -315,6 +314,7 @@ blockquote {
     margin: 0;
     font-family: var(--display-font);
     font-weight: 600;
+    color: var(--blue-deep);
 }
 
 h1 {
@@ -347,6 +347,33 @@ dd {
     color: var(--muted);
     font-size: 1.04rem;
     line-height: 1.75;
+}
+
+.hero__content h1,
+.hero__content h2,
+.hero__content h3,
+.hero__panel h1,
+.hero__panel h2,
+.hero__panel h3,
+.intro-card h1,
+.intro-card h2,
+.intro-card h3,
+.timeline__item h1,
+.timeline__item h2,
+.timeline__item h3,
+.quote-card h1,
+.quote-card h2,
+.quote-card h3,
+.cta-card h1,
+.cta-card h2,
+.cta-card h3,
+.info-card h1,
+.info-card h2,
+.info-card h3,
+.service-card h1,
+.service-card h2,
+.service-card h3 {
+    color: var(--text);
 }
 
 .hero__tagline {
@@ -506,6 +533,14 @@ dd {
     flex-direction: column;
     gap: 12px;
     margin-bottom: 26px;
+}
+
+.section__header h2 {
+    color: var(--blue-deep);
+}
+
+.section__header .section__lede {
+    color: rgba(11, 35, 82, 0.78);
 }
 
 .section__lede {
