@@ -35,7 +35,14 @@
 
                 <div class="hero__contact">
                     <a href="mailto:{{ $contactEmail }}">{{ $contactEmail }}</a>
-                    <span>{{ $contactPhone }}</span>
+                    <span class="contact-chip contact-chip--phone">
+                        <i class="contact-chip__icon fa-solid fa-phone" aria-hidden="true"></i>
+                        <span class="contact-chip__text">{{ $contactPhone }}</span>
+                    </span>
+                    <a class="contact-chip contact-chip--whatsapp" href="{{ $contactWhatsappLink }}" target="_blank" rel="noopener" aria-label="WhatsApp {{ $contactWhatsapp }}">
+                        <i class="contact-chip__icon fa-brands fa-whatsapp" aria-hidden="true"></i>
+                        <span class="contact-chip__text">{{ $contactWhatsapp }}</span>
+                    </a>
                 </div>
 
                 <dl class="stats" aria-label="Resumo da atuação profissional">
@@ -210,7 +217,7 @@
             </div>
 
             <div class="video-grid">
-                @foreach (array_slice($testimonialVideos, 4, 2) as $video)
+                @foreach (array_slice($testimonialVideos, 4) as $video)
                     <article class="video-card">
                         <div class="video-frame" aria-hidden="true">
                             @if ($video['source'])
@@ -230,6 +237,17 @@
                         </div>
                     </article>
                 @endforeach
+
+                @if (count($testimonialVideos) % 2 === 1)
+                    <aside class="video-card video-card--note">
+                        <div class="video-card__note-badge">Gestão clara</div>
+                        <h3>Informação organizada para decisões mais seguras</h3>
+                        <p>
+                            A sindicância profissional combina escuta, organização e acompanhamento técnico para dar
+                            mais previsibilidade à rotina do condomínio.
+                        </p>
+                    </aside>
+                @endif
             </div>
         </section>
 
@@ -248,7 +266,16 @@
                 <div>
                     <p class="eyebrow">Contato</p>
                     <h2>{{ $contactEmail }}</h2>
-                    <p>{{ $contactPhone }}</p>
+                    <p class="contact-chip contact-chip--phone">
+                        <i class="contact-chip__icon fa-solid fa-phone" aria-hidden="true"></i>
+                        <span class="contact-chip__text">{{ $contactPhone }}</span>
+                    </p>
+                    <p>
+                        <a class="contact-chip contact-chip--whatsapp" href="{{ $contactWhatsappLink }}" target="_blank" rel="noopener" aria-label="WhatsApp {{ $contactWhatsapp }}">
+                            <i class="contact-chip__icon fa-brands fa-whatsapp" aria-hidden="true"></i>
+                            <span class="contact-chip__text">{{ $contactWhatsapp }}</span>
+                        </a>
+                    </p>
                 </div>
 
                 <a class="button button--primary" href="mailto:{{ $contactEmail }}">
@@ -261,7 +288,14 @@
             <div class="site-footer__inner">
                 <span>Luiz Serrano</span>
                 <span>{{ $contactEmail }}</span>
-                <span>{{ $contactPhone }}</span>
+                <span class="contact-chip contact-chip--phone">
+                    <i class="contact-chip__icon fa-solid fa-phone" aria-hidden="true"></i>
+                    <span class="contact-chip__text">{{ $contactPhone }}</span>
+                </span>
+                <span class="contact-chip contact-chip--whatsapp contact-chip--footer">
+                    <i class="contact-chip__icon fa-brands fa-whatsapp" aria-hidden="true"></i>
+                    <span class="contact-chip__text">{{ $contactWhatsapp }}</span>
+                </span>
             </div>
         </footer>
     </main>

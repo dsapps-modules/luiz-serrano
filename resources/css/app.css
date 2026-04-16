@@ -400,6 +400,79 @@ dd {
     color: var(--gold);
 }
 
+.hero__contact .contact-chip--whatsapp {
+    color: var(--blue-deep);
+}
+
+.hero__contact .contact-chip--whatsapp .contact-chip__text {
+    color: inherit;
+}
+
+.hero__contact .contact-chip--whatsapp,
+.hero__contact .contact-chip--whatsapp .contact-chip__icon {
+    color: var(--text);
+}
+
+.contact-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.contact-chip--whatsapp {
+    color: var(--text);
+    font-weight: 800;
+}
+
+.contact-chip--phone {
+    color: var(--text);
+}
+
+.contact-chip--footer {
+    color: var(--blue-deep);
+}
+
+.contact-chip__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    flex: 0 0 auto;
+}
+
+.contact-chip__icon.fa-brands {
+    font-size: 1.1rem;
+    color: inherit;
+}
+
+.contact-chip__icon.fa-solid {
+    font-size: 0.98rem;
+    color: inherit;
+}
+
+.contact-chip__text {
+    color: var(--text);
+}
+
+.hero__contact .contact-chip--phone .contact-chip__text,
+.hero__contact .contact-chip--whatsapp .contact-chip__text,
+.cta-card .contact-chip--phone .contact-chip__text,
+.cta-card .contact-chip--whatsapp .contact-chip__text,
+.site-footer .contact-chip--phone .contact-chip__text,
+.site-footer .contact-chip--whatsapp .contact-chip__text {
+    color: var(--text);
+}
+
+.cta-card .contact-chip--whatsapp,
+.cta-card .contact-chip--phone,
+.site-footer .contact-chip--footer,
+.site-footer .contact-chip--phone {
+    color: var(--text);
+}
+
 .hero__lead {
     max-width: 58ch;
     margin: 22px 0 0;
@@ -646,6 +719,44 @@ dd {
     background: linear-gradient(180deg, rgba(10, 33, 82, 0.9), rgba(8, 22, 52, 0.92));
     box-shadow: none;
     backdrop-filter: blur(18px);
+}
+
+.video-card--note {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    padding: 28px;
+    background:
+        linear-gradient(180deg, rgba(10, 33, 82, 0.96), rgba(8, 22, 52, 0.96)),
+        radial-gradient(circle at top right, rgba(248, 216, 63, 0.14), transparent 55%);
+}
+
+.video-card__note-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(248, 216, 63, 0.22);
+    color: #d49f05;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+}
+
+.video-card--note h3 {
+    max-width: 16ch;
+    color: var(--text);
+}
+
+.video-card--note p {
+    max-width: 34ch;
+    color: var(--muted);
+    margin: 0;
+    line-height: 1.8;
 }
 
 .video-frame {

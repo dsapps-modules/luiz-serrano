@@ -9,8 +9,10 @@ class HomeController extends Controller
     public function __invoke(): Response
     {
         $html = view('welcome', [
-            'contactEmail' => 'contato@luizserrano.com.br',
-            'contactPhone' => '2671-1322',
+            'contactEmail' => 'sindico@luizserrano.com.br',
+            'contactPhone' => '(11) 2943-1195',
+            'contactWhatsapp' => '(11) 99966-4726',
+            'contactWhatsappLink' => 'https://wa.me/5511999664726',
             'stats' => [
                 [
                     'value' => '360°',
@@ -185,6 +187,11 @@ class HomeController extends Controller
                     'title' => 'Reginaldo do Prado',
                     'subtitle' => 'DS Aplicativos',
                     'source' => asset('videos/depoimento6.mp4'),
+                ],
+                [
+                    'title' => 'Willian da Silva',
+                    'subtitle' => 'Continuidade do trabalho',
+                    'source' => asset('videos/depoimento7.mp4'),
                 ],
             ],
         ])->render();
