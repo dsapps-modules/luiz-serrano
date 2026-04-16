@@ -133,6 +133,7 @@
 
             <div class="intro-grid">
                 <article class="intro-card intro-card--wide">
+                    <h3>Gestão profissional com visão completa</h3>
                     <p>
                         A gestão profissional parte da leitura correta do cenário do condomínio. A partir disso, Luiz
                         Serrano estrutura prioridades, organiza a comunicação, acompanha contratos, media conflitos e
