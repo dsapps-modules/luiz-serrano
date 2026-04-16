@@ -79,7 +79,7 @@ class HomeController extends Controller
                 ],
                 [
                     'label' => 'Experiência',
-                    'title' => 'MAIS DE 30 ANOS NO MERCADO',
+                    'title' => 'MAIS DE 55 ANOS NO MERCADO',
                     'text' => 'O mercado pede que o síndico seja capacitado, treinado e acima de tudo tenha a experiência necessária para lidar com situações de qualquer natureza. A experiência que possui torna Luiz Serrano - O SÍNDICO preparado para assumir qualquer tipo de condomínio.',
                 ],
                 [
@@ -157,23 +157,23 @@ class HomeController extends Controller
             ],
             'testimonialVideos' => [
                 [
-                    'title' => 'Depoimento 01',
+                    'title' => 'Gênesis Paula',
                     'subtitle' => 'Memória e presença',
                     'source' => asset('videos/depoimento1.mp4'),
                 ],
                 [
-                    'title' => 'Depoimento 02',
+                    'title' => 'Roberto Torniolli',
                     'subtitle' => 'Trabalho e confiança',
                     'source' => asset('videos/depoimento2.mp4'),
                 ],
                 [
                     'title' => 'Eliane Fioravante',
-                    'subtitle' => 'Vidro Sanches',
+                    'subtitle' => 'Vidros Sanches',
                     'source' => asset('videos/depoimento3.mp4'),
                 ],
                 [
-                    'title' => 'Eduardo',
-                    'subtitle' => 'Grupo ES',
+                    'title' => 'José Eduardo',
+                    'subtitle' => 'Grupo E&S Serviços Terceirizados',
                     'source' => asset('videos/depoimento4.mp4'),
                 ],
                 [
