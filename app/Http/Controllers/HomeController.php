@@ -167,7 +167,7 @@ class HomeController extends Controller
                     'source' => asset('videos/depoimento2.mp4'),
                 ],
                 [
-                    'title' => 'Eliane',
+                    'title' => 'Eliane Fioravante',
                     'subtitle' => 'Vidro Sanches',
                     'source' => asset('videos/depoimento3.mp4'),
                 ],
@@ -177,12 +177,12 @@ class HomeController extends Controller
                     'source' => asset('videos/depoimento4.mp4'),
                 ],
                 [
-                    'title' => 'Viviane',
+                    'title' => 'Viviane Reis',
                     'subtitle' => 'Vetor Norte Corretora de Seguros',
                     'source' => asset('videos/depoimento5.mp4'),
                 ],
                 [
-                    'title' => 'Reginaldo',
+                    'title' => 'Reginaldo do Prado',
                     'subtitle' => 'DS Aplicativos',
                     'source' => asset('videos/depoimento6.mp4'),
                 ],
