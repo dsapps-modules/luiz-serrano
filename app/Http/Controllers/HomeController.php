@@ -157,12 +157,12 @@ class HomeController extends Controller
             ],
             'testimonialVideos' => [
                 [
-                    'title' => 'Paula Silva',
+                    'title' => 'Gênesis Paula',
                     'subtitle' => 'Memória e presença',
                     'source' => asset('videos/depoimento1.mp4'),
                 ],
                 [
-                    'title' => 'Roberto Moraes',
+                    'title' => 'Roberto Torniolli',
                     'subtitle' => 'Trabalho e confiança',
                     'source' => asset('videos/depoimento2.mp4'),
                 ],
