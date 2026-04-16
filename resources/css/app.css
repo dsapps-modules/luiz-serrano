@@ -169,8 +169,8 @@ a {
     height: 520px;
     border-radius: 999px;
     filter: blur(22px);
-    opacity: 0.65;
     pointer-events: none;
+    opacity: 0.65;
 }
 
 .page-glow--left {
@@ -207,7 +207,7 @@ a {
 .cta-card {
     border: 1px solid var(--border);
     background: linear-gradient(180deg, rgba(10, 33, 82, 0.9), rgba(8, 22, 52, 0.9));
-    box-shadow: var(--shadow);
+    box-shadow: none;
     backdrop-filter: blur(18px);
 }
 
@@ -584,7 +584,7 @@ dd {
     border-radius: 26px;
     border: 1px solid rgba(255, 220, 87, 0.16);
     background: linear-gradient(180deg, rgba(10, 33, 82, 0.9), rgba(8, 22, 52, 0.94));
-    box-shadow: var(--shadow);
+    box-shadow: none;
     backdrop-filter: blur(18px);
 }
 
@@ -640,7 +640,7 @@ dd {
     border-radius: 28px;
     border: 1px solid rgba(255, 220, 87, 0.16);
     background: linear-gradient(180deg, rgba(10, 33, 82, 0.9), rgba(8, 22, 52, 0.92));
-    box-shadow: var(--shadow);
+    box-shadow: none;
     backdrop-filter: blur(18px);
 }
 
