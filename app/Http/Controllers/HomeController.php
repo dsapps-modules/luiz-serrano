@@ -179,7 +179,7 @@ class HomeController extends Controller
                     'source' => asset('videos/depoimento4.mp4'),
                 ],
                 [
-                    'title' => 'Viviane Reis',
+                    'title' => 'Viviane Soares',
                     'subtitle' => 'Vetor Norte Corretora de Seguros',
                     'source' => asset('videos/depoimento5.mp4'),
                 ],
